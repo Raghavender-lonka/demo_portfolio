@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      h1{
+        color: blue;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>indu</h1>
+    <h2>indu</h2>
+    <h3>indu</h3>
+    <h4>indu</h4>
+    <h5>indu</h5>
+    <h6>indu</h6>
+    <p style="color: aqua;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores qui similique rerum, commodi animi officia accusantium, ea tempore tenetur maxime quidem ab necessitatibus? Distinctio pariatur dicta inventore autem et?</p>
+    <p class="highlight">highlighted</p>
+    <p id="hi">hello</p>
+    <a href="https://www.google.co.in/" target="_blank">google</a>
+    <img src="https://en.wikipedia.org/wiki/Google_logo" alt="google">
+    <ol>
+        <li>one</li>
+        <li>e</li>
+    </ol>
+    <ul>
+        <li>one</li>
+        <li>o</li>
+    </ul>
+    <table>
+        <tr> 
+            <th>name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>indu</td>
+            <td>20</td>
+        </tr>
+    </table>
+    <form action="/webdev/start.html" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="enter name" required>
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" placeholder="enter age" required>
+
+        <label>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female
+            <label for="password">Password:</label>
+<input type="password" id="password" name="password">
+<button type="button" onclick="togglePassword()">Show/Hide</button>
+
+<script>
+  function togglePassword() {
+    const passwordInput = document.getElementById('password');
+    passwordInput.type = passwordInput.type === 'password' ? 'text' : 'password';
+  }
+</script>
+
+        </label>
+
+        <button type="submit">submit</button>
+    </form>
+    
+    <header>
+        <h1>Welcome to My Site</h1>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <article>
+            <h2>My Blog Post</h2>
+            <p>This is an example of semantic HTML.</p>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <p>Contact us at email@example.com</p>
+      </footer>
+      
+</body>
+</html>
